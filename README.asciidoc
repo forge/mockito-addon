@@ -1,0 +1,19 @@
+== JBoss Forge Mockito addon
+:idprefix: id_ 
+This addon *provides classes* for use in other addons. 
+You *must* use this addon if you want to use Mockito in your addon.
+        
+=== Dependencies: None 
+
+== Setup
+
+To use this addon, you must add it as a dependency in the *pom.xml*:
+[source,xml]
+----
+<dependency>
+   <groupId>org.jboss.forge.addon</groupId>
+   <artifactId>mockito</artifactId>
+   <classifier>forge-addon</classifier>
+   <version>2.13.0</version>
+</dependency>
+----
